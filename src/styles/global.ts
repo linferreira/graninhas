@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 	:root{
 		--background: #f0f2f5;
+		--green: #33cc95;
 		--pink: #ae2d68;
 		--pink-light: #ffc2c7;
 		--red: #ff5757;
@@ -28,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 
 	body {
 		background: var(--background);
+		font-family: 'Poppins', sans-serif;
 		--webkit-font-smoothing: antialiased;
 	}
 
