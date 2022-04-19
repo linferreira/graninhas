@@ -17,7 +17,7 @@ createServer({
           type: "withdraw",
           category: "Energia",
           amount: 100,
-          createdAt: new Date("2020-01-01"),
+          createdAt: new Date(),
         },
         {
           id: 2,
@@ -25,7 +25,7 @@ createServer({
           type: "deposit",
           category: "Salário",
           amount: 2000,
-          createdAt: new Date("2020-01-01"),
+          createdAt: new Date(),
         },
       ],
     });
