@@ -1,9 +1,9 @@
-import { FormEvent, useContext, useState } from "react";
+import { FormEvent, useState } from "react";
 import Modal from "react-modal";
 import closeImg from "../../assets/close.svg";
 import incomeImg from "../../assets/income.svg";
 import outcomeImg from "../../assets/outcome.svg";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactions } from "../../hooks/useTransactions";
 import { Form, RadioBox, TransactionTypeContainer } from "./styles";
 
 enum types {
@@ -20,7 +20,7 @@ export function NewTransactionModal({
   isOpen,
   onRequestClose,
 }: INewTransactionModal) {
-  const { createTransaction } = useContext(TransactionsContext);
+  const { createTransaction } = useTransactions()
 
   const [type, setType] = useState<"deposit" | "withdraw">(types.DEPOSIT);
   const [title, setTitle] = useState("");
