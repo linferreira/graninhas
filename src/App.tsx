@@ -4,8 +4,9 @@ import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from "./components/NewTransactionModal";
 import { GlobalStyle } from "./styles/global";
+import { TransactionsProvider } from "./TransactionsContext";
 
-Modal.setAppElement('#root');
+Modal.setAppElement("#root");
 
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] =
@@ -15,14 +16,14 @@ export function App() {
     setIsNewTransactionModalOpen((value) => !value);
   }
   return (
-    <>
+    <TransactionsProvider>
       <GlobalStyle />
       <Header onOpenNewTransactionModal={handleSetNewTransactionModal} />
       <Dashboard />
-      <NewTransactionModal 
+      <NewTransactionModal
         isOpen={isNewTransactionModalOpen}
         onRequestClose={handleSetNewTransactionModal}
       />
-    </>
+    </TransactionsProvider>
   );
 }
