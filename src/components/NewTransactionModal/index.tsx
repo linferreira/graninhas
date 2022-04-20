@@ -31,10 +31,20 @@ export function NewTransactionModal({
     setType(type);
   }
 
-  function handleCreateNewTransaction(event: FormEvent) {
+  function clearInfos() {
+    setTitle("");
+    setAmount(0);
+    setCategory("");
+    setType(types.DEPOSIT);
+  }
+
+  async function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault();
 
-    createTransaction({ title, amount, category, type });
+    await createTransaction({ title, amount, category, type });
+
+    clearInfos();
+    onRequestClose();
   }
 
   return (
