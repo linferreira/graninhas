@@ -8,7 +8,7 @@ Projeto criado no módulo 2 do curso Rocketseat Ingnet React
 - Styled Components
 - MirageJs
 
-![image](https://user-images.githubusercontent.com/22802370/164089255-d51ae36d-5495-417e-9a4f-ff66bbd0693e.png)
+![image](https://user-images.githubusercontent.com/22802370/164298861-bc8e1730-1bed-4272-b934-20910e8cac03.png)
 
 ![image](https://user-images.githubusercontent.com/22802370/164089434-09440b6a-a157-491d-99fe-5753c8886df1.png)
 
