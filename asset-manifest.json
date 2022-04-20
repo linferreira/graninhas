@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/graninhas/static/js/main.abf9b9b1.js",
+    "main.js": "/graninhas/static/js/main.2ab67c5f.js",
     "static/media/logo.svg": "/graninhas/static/media/logo.cca1ba29a53e0f06263b612909da8ee8.svg",
     "static/media/total.svg": "/graninhas/static/media/total.f12e40eae62637a4ae1c13146b57c6fc.svg",
     "static/media/income.svg": "/graninhas/static/media/income.8373eff3fdcff2f21403c460ca816b58.svg",
     "static/media/outcome.svg": "/graninhas/static/media/outcome.12eaa24292dd4252f5499ff35a11f801.svg",
     "static/media/close.svg": "/graninhas/static/media/close.f2ffc13d7a520626e9dc0f92ce563cfc.svg",
     "index.html": "/graninhas/index.html",
-    "main.abf9b9b1.js.map": "/graninhas/static/js/main.abf9b9b1.js.map"
+    "main.2ab67c5f.js.map": "/graninhas/static/js/main.2ab67c5f.js.map"
   },
   "entrypoints": [
-    "static/js/main.abf9b9b1.js"
+    "static/js/main.2ab67c5f.js"
   ]
 }
